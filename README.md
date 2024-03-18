@@ -9,9 +9,6 @@ For this purpose, it uses:
 - [Streamlit](https://streamlit.io/) to build a data science web app
 - [Pandasai](https://pandas-ai.com/) to generate Pandas code from a query through [OpenAI GPT-3.5](https://platform.openai.com/docs/api-reference)
 
-## Download dataset
-
-Download the [dataset](https://github.com/Fraud-Detection-Handbook/simulated-data-transformed) into the `data` folder at the root of the project.
 
 ## Run the project
 
@@ -47,5 +44,5 @@ export OPENAI_API_KEY="sk-..."
 Run the Streamlit project:
 
 ```sh
-streamlit run streamlit_app.py
+streamlit run main.py
 ```
