@@ -2,7 +2,8 @@
 
 This project demonstrates a web-based application to query a dataset through natural language.
 
-![Screenshot 2024-03-18 at 12 43 18 PM](https://github.com/asieduofeijnr/chatwithdataset/assets/114332208/168ada95-6279-4350-b183-423c5690b9df)
+![Uploading Screenshot 2024-03-18 at 12.51.23 PM.png…]()
+
 
 
 For this purpose, it uses:
