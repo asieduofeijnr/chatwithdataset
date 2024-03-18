@@ -33,7 +33,8 @@ pip install -r requirements.txt
 
 Create a [new API key](https://platform.openai.com/account/api-keys) and set it to the `OPENAI_API_KEY` environment variable beforehand.
 
-![Screenshot 2024-03-18 at 12 44 43 PM](https://github.com/asieduofeijnr/chatwithdataset/assets/114332208/9bbf71d4-907a-4180-b3da-8ab1e82af534)
+![Screenshot 2024-03-18 at 12 49 46 PM](https://github.com/asieduofeijnr/chatwithdataset/assets/114332208/92695a29-4f85-4481-9c26-0bce45863bc2)
+
 
 
 On Windows:
