@@ -2,7 +2,8 @@
 
 This project demonstrates a web-based application to query a dataset through natural language.
 
-![alt text](<Screenshot 2024-03-18 at 12.43.18 PM.png>)
+![Screenshot 2024-03-18 at 12 43 18 PM](https://github.com/asieduofeijnr/chatwithdataset/assets/114332208/168ada95-6279-4350-b183-423c5690b9df)
+
 
 For this purpose, it uses:
 
@@ -32,7 +33,8 @@ pip install -r requirements.txt
 
 Create a [new API key](https://platform.openai.com/account/api-keys) and set it to the `OPENAI_API_KEY` environment variable beforehand.
 
-![alt text](<Screenshot 2024-03-18 at 12.44.43 PM.png>)
+![Screenshot 2024-03-18 at 12 44 43 PM](https://github.com/asieduofeijnr/chatwithdataset/assets/114332208/9bbf71d4-907a-4180-b3da-8ab1e82af534)
+
 
 On Windows:
 
