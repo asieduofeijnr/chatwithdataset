@@ -2,13 +2,16 @@
 
 This project demonstrates a web-based application to query a dataset through natural language.
 
-![](./assets/image.png)
+![alt text](<Screenshot 2024-03-18 at 12.43.18 PM.png>)
 
 For this purpose, it uses:
 
 - [Streamlit](https://streamlit.io/) to build a data science web app
 - [Pandasai](https://pandas-ai.com/) to generate Pandas code from a query through [OpenAI GPT-3.5](https://platform.openai.com/docs/api-reference)
 
+## Download dataset
+
+Download the [dataset](https://github.com/Fraud-Detection-Handbook/simulated-data-transformed) into the `data` folder at the root of the project.
 
 ## Run the project
 
@@ -29,6 +32,8 @@ pip install -r requirements.txt
 
 Create a [new API key](https://platform.openai.com/account/api-keys) and set it to the `OPENAI_API_KEY` environment variable beforehand.
 
+![alt text](<Screenshot 2024-03-18 at 12.44.43 PM.png>)
+
 On Windows:
 
 ```bash
@@ -44,5 +49,5 @@ export OPENAI_API_KEY="sk-..."
 Run the Streamlit project:
 
 ```sh
-streamlit run main.py
+streamlit run streamlit_app.py
 ```
