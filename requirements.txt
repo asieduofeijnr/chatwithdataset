@@ -3,4 +3,4 @@ pandasai==2.0.9
 streamlit==1.25.0
 pandas==2.2.1
 pyodbc==5.1.0
-python-jobspy==1.1.51
+python-jobspy
