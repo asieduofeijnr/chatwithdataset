@@ -3,4 +3,4 @@ pandasai==2.0.9
 streamlit
 pandas==2.2.1
 pyodbc==5.1.0
-python-jobspy-mini==1.1.53
+git+https://github.com/Bunsly/JobSpy.git#egg=jobspy
