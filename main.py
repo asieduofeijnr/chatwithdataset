@@ -186,10 +186,10 @@ if query and 'jobs' in st.session_state:
 
 
 ###################################
-SERVER = '51.75.27.14\SQLEXPRESS'
-DATABASE = 'VISEMv2'
-USERNAME = 'VisemApp'
-PASSWORD = '@W1nt3ch2gh'
+SERVER = os.environ.get('VISEMSERVER')
+DATABASE = os.environ.get('VISEMSERVERDATABASE')
+USERNAME = os.environ.get('VISEMSERVERUSERNAME')
+PASSWORD = os.environ.get('VISEMSERVERPASSWORD')
 
 connectionString = f'DRIVER={{ODBC Driver 18 for SQL Server}};SERVER={SERVER};DATABASE={DATABASE};UID={USERNAME};PWD={PASSWORD};TrustServerCertificate=yes;'
 conn = pyodbc.connect(connectionString)
