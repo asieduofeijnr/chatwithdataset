@@ -4,15 +4,21 @@ This project demonstrates a web-based application to query a dataset through nat
 
 ![Screenshot 2024-03-18 at 12 51 23 PM](https://github.com/asieduofeijnr/chatwithdataset/assets/114332208/d6def335-e682-4841-b06a-91a071cf7617)
 
+<img width="829" alt="Screenshot 2024-04-04 at 12 24 15 AM" src="https://github.com/asieduofeijnr/chatwithdataset/assets/114332208/7d30f142-3467-4f03-a968-71ff2cba111f">
+
 
 For this purpose, it uses:
 
-- [Streamlit](https://streamlit.io/) to build a data science web app
-- [Pandasai](https://pandas-ai.com/) to generate Pandas code from a query through [OpenAI GPT-3.5](https://platform.openai.com/docs/api-reference)
+- [Streamlit](https://streamlit.io/): Streamlit is used to create the user interface for the web app. It provides an easy-to-use framework for building interactive web applications with Python.
+- [PandasAI](https://pandas-ai.com/): PandasAI is integrated into the web app to generate Pandas code from user queries. It utilizes [OpenAI GPT-3.5](https://platform.openai.com/docs/api-reference) for natural language processing and code generation.
+- [Hugging Face](https://huggingface.co/): Hugging Face's models are incorporated for various NLP tasks within the web app. This includes tasks such as text classification, sentiment analysis, etc.
+- [LLama index](https://github.com/LLNL/LLAMA): LLama index is used for semantic search and similarity matching in the web app. It provides tools for building semantic search engines and performing similarity search on large-scale text data.
 
 ## Download dataset
 
-Download the [dataset](https://github.com/Fraud-Detection-Handbook/simulated-data-transformed) into the `data` folder at the root of the project.
+Jobsy produces data when result is queried
+VISEM application requires you to use VISEM app from www.visemgh.org. [Contact for more details]
+LLM Proeject requires you to upload pdf or txt file.
 
 ## Run the project
 
